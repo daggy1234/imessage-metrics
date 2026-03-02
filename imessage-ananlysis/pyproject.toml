@@ -1,17 +1,14 @@
 [tool.poetry]
-name = "imessage-ananlysis"
+name = "imessage-analysis"
 version = "0.1.0"
-description = ""
+description = "iMessage data extraction and analysis"
 authors = ["Arnav Jindal <arnav.jindal7@gmail.com>"]
 readme = "README.md"
-packages = [{include = "imessage_ananlysis"}]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
-fastapi = "^0.103.1"
 pandas = "^2.1.1"
 matplotlib = "^3.8.0"
-
 
 [build-system]
 requires = ["poetry-core"]
